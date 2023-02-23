@@ -5,7 +5,7 @@ var router = express.Router();
 const multer = require("multer");
 const cookierParser= require('cookie-parser');
 const jwt = require('jsonwebtoken');
-
+const path=require('path');
 app.use(bodyParser.urlencoded({
   extended: true
 }))
